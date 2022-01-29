@@ -1,0 +1,6 @@
+[submodule "seed_database"]
+	path = seed_database
+	url = https://github.com/Currency-Tradeup/Do-Tradeup-SeedDatabase
+[submodule "Do-Tradeup-SeedDatabase"]
+	path = Do-Tradeup-SeedDatabase
+	url = https://github.com/Currency-Tradeup/Do-Tradeup-SeedDatabase
