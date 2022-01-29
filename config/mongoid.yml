@@ -10,5 +10,4 @@ development:
 production:
   clients:
     default:
-      uri: "<%= ENV['DATABASE_URL'] %>"
-      database: Tradeup
+      uri: "<%= ENV['DATABASE_URL'].gsub('admin','Tradeup') %>"
