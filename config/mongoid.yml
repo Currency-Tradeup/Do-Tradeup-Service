@@ -12,5 +12,3 @@ production:
     default:
       uri: "<%= ENV['DATABASE_URL'] %>"
       database: Tradeup
-      options:
-        ssl_ca_cert_string: "<%= ENV['CA_CERT'] %>"
