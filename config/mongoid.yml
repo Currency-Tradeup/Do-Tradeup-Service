@@ -13,6 +13,4 @@ production:
       uri: "<%= ENV['DATABASE_URL'] %>"
       database: Tradeup
       options:
-        replica_set: tradeup-chains
         ssl_ca_cert_string: "<%= ENV['CA_CERT'] %>"
-        ssl_verify: true
