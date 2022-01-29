@@ -15,7 +15,6 @@ production:
       hosts:
         - "<%= ENV['HOSTNAME'] %>"
       options:
-        ssl: true
         replica_set: tradeup-chains
         ssl_ca_cert_string: "<%= ENV['CA_CERT'] %>"
         ssl_verify: true
