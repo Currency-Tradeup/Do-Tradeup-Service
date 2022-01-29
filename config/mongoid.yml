@@ -10,11 +10,13 @@ development:
 production:
   clients:
     default:
-      uri: "<%= ENV['DATABASE_URL'] %>"
       database: Tradeup
       hosts:
         - "<%= ENV['HOSTNAME'] %>"
       options:
+        user: "<%= ENV['PASSWORD'] %>"
+        password: "<%= ENV['USERNAME'] %>"
+        ssl: true
         replica_set: tradeup-chains
         ssl_ca_cert_string: "<%= ENV['CA_CERT'] %>"
         ssl_verify: true
