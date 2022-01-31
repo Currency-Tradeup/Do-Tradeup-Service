@@ -10,4 +10,4 @@ development:
 production:
   clients:
     default:
-      uri: "<%= ENV['DATABASE_URL'].gsub('admin','Tradeup') %>"
+      uri: "<%= ENV['DATABASE_URL'].gsub('admin','Tradeup') + '&tlsInsecure=true'%>"
